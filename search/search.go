@@ -1,6 +1,7 @@
 package search
 
 import (
+	"fmt"
 	"log"
 	"sync"
 )
@@ -54,6 +55,8 @@ func Run(searchTerm string) {
 	// Start displaying results as they are available and
 	// return after the final result is displayed.
 	Display(results)
+
+	fmt.Println("jiaduo")
 }
 
 // Register is called to register a matcher for use by the program.
