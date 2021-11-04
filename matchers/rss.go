@@ -4,11 +4,10 @@ import (
 	"encoding/xml"
 	"errors"
 	"fmt"
+	"github.com/zhailuxu/search/search"
 	"log"
 	"net/http"
 	"regexp"
-
-	"github.com/zhailuxu/search"
 )
 
 type (
